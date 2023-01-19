@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+ 
+
+/* Containter Fluid */
+.container-fluid {
+    padding: 5% 10%;
+
+}
+
+
+
+/* Navigation bar */
+.navbar {
+    padding: 0.5rem 10%
+}
+
+.navbar-brand {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.navbar-nav {
+
+    list-style-type: none;
+
+}
+
+.navbar-link {
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+
+.navbar-link > a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+/* Hero Section */
+
+.hero {
+    padding: 10%;
+}
+
+.hero-banner {
+    padding-bottom: 5%;
+    font-size: 3rem;
+}
+
+
+.parent {
+    z-index: 1;
+}
+
+.hero-image {
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/peaches.jpg);
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+
+/* Feature list */
+.features {
+    text-align: center;
+}
+
+.feature-box {
+    padding: 10% 5%;
+}
+
+.feature-title {
+font-size: 2rem;
+font-weight: 600;
+}
+
+.icon {
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+/* Contact */
+
+.contact-text  {
+        font-size: 2rem;
+        font-weight: 600;
+}
+
+.contact {
+    padding: 5% 10%;
+}
+
+.contact-color {
+        background-color: #F1F0E2;
+}
+
+.input-group {
+    padding-right: 20%;
+}
+
+/* Footer */
+.footer-text {
+    text-align: center;
+    color:#fff;
+}
+
+.footer {
+    background-color: #3E4E59;
+}
